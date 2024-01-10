@@ -6,7 +6,7 @@ import time
 def test_basket_button_exist(browser):
     try:
         # ссылка на страницу товара
-        link = ' http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
+        link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
         # открываем ссылку
         browser.get(link)
         # это нужно раскомментировать для проверки французской корзины по условию задачи
